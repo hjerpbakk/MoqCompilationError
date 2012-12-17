@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{5132BF7F-F9C2-4230-8F79-346CBE2CA2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{D5A50636-930D-4B6C-B1F6-3219ACBE39DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55AEA1A0-3D66-4895-A745-ED4F27BDBC5F}"
+	ProjectSection(SolutionItems) = preProject
+		ClassLibrary1.vsmdi = ClassLibrary1.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{24198101-9FFA-4F41-9953-339B48472C9F}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\ClassLibrary2.dll = Lib\ClassLibrary2.dll
+		Lib\ClassLibrary2.pdb = Lib\ClassLibrary2.pdb
+		Lib\Moq.dll = Lib\Moq.dll
+		Lib\Moq.pdb = Lib\Moq.pdb
+		Lib\Moq.xml = Lib\Moq.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ClassLibrary1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5132BF7F-F9C2-4230-8F79-346CBE2CA2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5132BF7F-F9C2-4230-8F79-346CBE2CA2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5132BF7F-F9C2-4230-8F79-346CBE2CA2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5132BF7F-F9C2-4230-8F79-346CBE2CA2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A50636-930D-4B6C-B1F6-3219ACBE39DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A50636-930D-4B6C-B1F6-3219ACBE39DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A50636-930D-4B6C-B1F6-3219ACBE39DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A50636-930D-4B6C-B1F6-3219ACBE39DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
